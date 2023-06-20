@@ -1,0 +1,10 @@
+.header
+{
+  background-color: white;
+}
+.active-link
+{
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: underline;
+}

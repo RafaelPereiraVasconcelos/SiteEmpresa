@@ -1,0 +1,53 @@
+.banner
+{
+  background-image: url('../../../assets/img/bannerimg.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+.banner h1
+{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  top: 30%;
+  left: 20%;
+  position: absolute;
+}
+.banner h4
+{
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 35%;
+  font-family: 'Montserrat';
+}
+.content1
+{
+  top: 60%;
+  left: 40%;
+  position: absolute;
+  background-color: rgba(35, 234, 18, 0.61);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: white;
+}
+.content2
+{
+  top: 60%;
+  left: 52%;
+  position: absolute;
+  background-color:transparent;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: white;
+}
+a
+{
+  color: white;
+}

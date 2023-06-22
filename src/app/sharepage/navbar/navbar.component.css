@@ -4,3 +4,15 @@
   color: var(--primary-color);
   text-decoration: underline;
 }
+.navbar-nav
+{
+  background-color: white;
+}
+.container-fluid
+{
+  background-color: white;
+}
+.navbar navbar-expand-lg bg-body-tertiary
+{
+  background-color: white;
+}

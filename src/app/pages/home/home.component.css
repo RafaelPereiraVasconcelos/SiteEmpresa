@@ -1,31 +1,38 @@
-.banner
+@media only screen and (max-width: 400px) {
+  .banner{ display: none !important; }
+  }
+  @media only screen and (min-width: 500px) {
+  .bannermobile{ display: inline !important; }
+  }
+
+.bannermobile
 {
-  background-image: url('../../../assets/img/bannerimg.jpg');
-  height: 600px;
+  background-image: url('../../../assets/img/bannerimg2.jpg');
+  height: 100vh;
   background-position: center;
   background-size: cover;
 }
-.banner h1
+.bannermobile h1
 {
   color: white;
   font-size: 50px;
   font-weight: bold;
-  top: 30%;
+  top: 40%;
   left: 20%;
   position: absolute;
 }
-.banner h4
+.bannermobile h4
 {
   color: white;
   position: absolute;
   font-size: 20px;
-  top: 50%;
+  top: 60%;
   left: 35%;
   font-family: 'Montserrat';
 }
-.content1
+.contentmobile1
 {
-  top: 60%;
+  top: 70%;
   left: 40%;
   position: absolute;
   background-color: rgba(35, 234, 18, 0.61);
@@ -35,9 +42,9 @@
   border: 2px solid;
   border-color: white;
 }
-.content2
+.contentmobile2
 {
-  top: 60%;
+  top: 70%;
   left: 52%;
   position: absolute;
   background-color:transparent;
@@ -50,4 +57,55 @@
 a
 {
   color: white;
+}
+
+
+.banner
+{
+  background-image: url('../../../assets/img/bannerimg2.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.banner h1
+{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  top: 40%;
+  left: 20%;
+  position: absolute;
+}
+.banner h4
+{
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 35%;
+  font-family: 'Montserrat';
+}
+.content1
+{
+  top: 70%;
+  left: 40%;
+  position: absolute;
+  background-color: rgba(35, 234, 18, 0.61);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: white;
+}
+.content2
+{
+  top: 70%;
+  left: 52%;
+  position: absolute;
+  background-color:transparent;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: white;
 }

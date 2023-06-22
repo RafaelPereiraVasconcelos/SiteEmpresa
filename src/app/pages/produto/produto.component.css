@@ -1,0 +1,33 @@
+h1.preto
+{
+  color: black;
+  font-weight: bold;
+  font-size:xx-large
+}
+
+h1{
+  color: var(--primary-color);
+  font-size: medium;
+  font-weight: bold;
+}
+p
+{
+  font-weight: bolder;
+  font-size: large;
+}
+
+.tela{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.telabox
+{
+ /* padding: 10px 5px;*/
+  display: flex;
+  flex-direction: column;
+}
+.telabox img
+{
+  width: 100%;
+}

@@ -5,9 +5,10 @@ import { ProdutoComponent } from './pages/produto/produto.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
-  {path:'produto', component:ProdutoComponent},
-  {path:'contato', component:ContatoComponent}
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: 'home', component: HomeComponent },
+  { path: 'produto', component: ProdutoComponent },
+  { path: 'contato', component: ContatoComponent }
 ];
 
 @NgModule({

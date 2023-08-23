@@ -1,111 +1,50 @@
-@media only screen and (max-width: 400px) {
-  .banner{ display: none !important; }
-  }
-  @media only screen and (min-width: 500px) {
-  .bannermobile{ display: inline !important; }
-  }
-
-.bannermobile
-{
-  background-image: url('../../../assets/img/bannerimg2.jpg');
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
+:host {
+  height: 100%;
 }
-.bannermobile h1
-{
+.container-fluid {
+  background-image: url('../../../assets/img/bannerimg2.jpg');
+  background-position: center;
+  background-size:cover;
+ 
+}
+.banner {
+  background: black center center;
+  opacity: .7;
+}
+
+.banner__title {
   color: white;
   font-size: 50px;
-  font-weight: bold;
-  top: 40%;
-  left: 20%;
-  position: absolute;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
-.bannermobile h4
-{
+
+.banner__title2 {
   color: white;
-  position: absolute;
   font-size: 20px;
-  top: 60%;
-  left: 35%;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
-.contentmobile1
-{
-  top: 70%;
-  left: 40%;
-  position: absolute;
-  background-color: rgba(35, 234, 18, 0.61);
-  color: white;
+
+.banner__app-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner__app-item {
   padding: 15px 20px;
   border-radius: 30px;
   border: 2px solid;
   border-color: white;
-}
-.contentmobile2
-{
-  top: 70%;
-  left: 52%;
-  position: absolute;
-  background-color:transparent;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 30px;
-  border: 2px solid;
-  border-color: white;
-}
-a
-{
   color: white;
 }
 
-
-.banner
-{
-  background-image: url('../../../assets/img/bannerimg2.jpg');
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-}
-.banner h1
-{
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  top: 40%;
-  left: 20%;
-  position: absolute;
-}
-.banner h4
-{
-  color: white;
-  position: absolute;
-  font-size: 20px;
-  top: 60%;
-  left: 35%;
-  font-family: 'Montserrat';
-}
-.content1
-{
-  top: 70%;
-  left: 40%;
-  position: absolute;
+.banner__app-item.android {
   background-color: rgba(35, 234, 18, 0.61);
-  color: white;
-  padding: 15px 20px;
-  border-radius: 30px;
-  border: 2px solid;
-  border-color: white;
 }
-.content2
-{
-  top: 70%;
-  left: 52%;
-  position: absolute;
-  background-color:transparent;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 30px;
-  border: 2px solid;
-  border-color: white;
+
+.banner__app-item.ios {
+  background-color: transparent;
 }
